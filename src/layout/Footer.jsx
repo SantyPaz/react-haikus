@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./styles/Footer.css";
 import LinkFooter from "./LinkFooter";
 import { faEnvelope, faShare } from "@fortawesome/free-solid-svg-icons";
 

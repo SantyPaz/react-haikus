@@ -1,4 +1,4 @@
-import "./LinkFooter.css";
+import "./styles/LinkFooter.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const LinkFooter = ({ icono, texto }) => {
