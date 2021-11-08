@@ -2,17 +2,19 @@ import "./App.css";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import Main from "./layout/Main";
-import LinkFooter from "./layout/LinkFooter";
-import Home from "./home/Home";
-function App() {
+// import Home from './home/Home';
+import Contactanos from '../src/home/contactos/Contactanos';
+
+
+const App = () => {
   return (
     <>
       <Header />
       <Main>
-      <Home/>
+        {/* <Home/> */}
+        <Contactanos />
       </Main>
       <Footer />
-      <LinkFooter/>
     </>
   );
 }

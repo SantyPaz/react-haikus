@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.galeria{
+#galeria{
     display: grid;
     justify-content: center;
 }
