@@ -3,7 +3,7 @@ import "./Tarjeta.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 
-const Tarjeta = () => {
+const Tarjeta = ({haiku,autor}) => {
     return (
       <div className="Tarjeta">
         <div className="ImagenTarjeta">
